@@ -1,0 +1,49 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+.header {
+  background-color: #d32f2f;
+  width: 100vw;
+  height: 40vh;
+  display: flex; /* 要素をflexboxに対応させる */
+  align-items: center; /* 縦方向の中央揃え */
+  justify-content: center; /* 横方向の中央揃え */
+  flex-direction: column; /* 子要素の並びを上から下にする（要素の改行に対応） */
+}
+.content {
+  width: 100vw;
+  height: 60vh;
+  display: flex; /* 要素をflexboxに対応させる */
+  align-items: center; /* 縦方向の中央揃え */
+  justify-content: center; /* 横方向の中央揃え */
+  flex-direction: column; /* 子要素の並びを上から下にする（要素の改行に対応） */
+}
+.title {
+  font-size: 80px;
+  color: #fff;
+  line-height: 1;
+}
+.title__sub {
+  font-size: 40px;
+  color: #fff;
+  line-height: 1;
+}
+.count-down {
+  line-height: 1;
+  color: #d32f2f;
+  font-size: 40px;
+  margin: 0 auto 16px;
+}
+.time {
+  line-height: 1;
+  color: #d32f2f;
+  font-size: 48px;
+}
+#countdown {
+  font-size: 80px !important;
+}
+#ad {
+  max-width: 728px;
+  margin: 16px auto 0;
+}
